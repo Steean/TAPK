@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise1_MakingABasicSmartPointer", "Exercise1_shared_ptr_ext\Exercise1_shared_ptr_ext.vcxproj", "{1FBFABC0-EBC1-48F1-BF57-796E0FC8F7B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise2_Conversions", "Exercise2_Conversions\Exercise2_Conversions.vcxproj", "{16ED7DD5-018A-48F3-B511-0E01C56DA5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FBFABC0-EBC1-48F1-BF57-796E0FC8F7B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FBFABC0-EBC1-48F1-BF57-796E0FC8F7B5}.Debug|Win32.Build.0 = Debug|Win32
+		{1FBFABC0-EBC1-48F1-BF57-796E0FC8F7B5}.Release|Win32.ActiveCfg = Release|Win32
+		{1FBFABC0-EBC1-48F1-BF57-796E0FC8F7B5}.Release|Win32.Build.0 = Release|Win32
+		{16ED7DD5-018A-48F3-B511-0E01C56DA5C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16ED7DD5-018A-48F3-B511-0E01C56DA5C8}.Debug|Win32.Build.0 = Debug|Win32
+		{16ED7DD5-018A-48F3-B511-0E01C56DA5C8}.Release|Win32.ActiveCfg = Release|Win32
+		{16ED7DD5-018A-48F3-B511-0E01C56DA5C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
