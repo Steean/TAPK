@@ -23,5 +23,8 @@
     <ClInclude Include="SharedPtrWithEqOverloads.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SafeBool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

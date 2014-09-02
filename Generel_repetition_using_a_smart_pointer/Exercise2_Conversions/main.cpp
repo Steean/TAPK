@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include <iostream>
 #include "SharedPtrWithEqOverloads.hpp"
+#include "SafeBool.hpp"
 
 int main()
 {
-	SharedPtr<int> spi(new int(42));
-	SharedPtr<double> spd(new double(42));
-
-	std::string  test = (spi == spd).ToString();
-
-	std::cout << spi == spd << std::endl;
+	Testable test;
+	Testable test2;
+	
+	if (test==test2) 
+	{
+		std::cout << "Virker det?" << std::endl;
+	}
+	if (test!=test2) 
+	{
+		std::cout << "JA SGU!" << std::endl;	
+	}
 
 }

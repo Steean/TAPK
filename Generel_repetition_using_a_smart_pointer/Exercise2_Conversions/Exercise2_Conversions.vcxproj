@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SafeBool.hpp" />
     <ClInclude Include="SharedPtrWithEqOverloads.hpp" />
   </ItemGroup>
   <ItemGroup>
